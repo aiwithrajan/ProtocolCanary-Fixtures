@@ -130,9 +130,9 @@ The three optional fields above and what they mean:
 
 Neither `input_file` nor `expected_file` is used by any fixture in this
 repository yet (values are inlined via `value_base64`/`expected_base64`),
-but the format supports them. See
-[`CONTRIBUTING.md`](CONTRIBUTING.md#fixture-schema) for the fuller field
-table.
+but the format supports them.
+
+For the `rpc` surface, only **`get-network`** and **`get-latest-ledger`** are currently supported (mirroring the table in `CONTRIBUTING.md`). If you want to write fixtures for an RPC method this repository does not yet support, see [`CONTRIBUTING.md`](CONTRIBUTING.md#fixture-schema) for the process of adding upstream support in `Protocol-Canary`. See [`CONTRIBUTING.md`](CONTRIBUTING.md#fixture-schema) for the fuller field table across all surfaces.
 
 ### Assertion vocabulary
 

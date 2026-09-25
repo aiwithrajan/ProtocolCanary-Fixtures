@@ -158,9 +158,9 @@ misspelled duplicate first. Tightening this (rejecting unknown fields) would be
 a deliberate change requiring a matching update to the test that documents the
 current behavior in `tests/test_validate.py` — never an accidental side effect.
 
-If you need an XDR `type` this repository does not yet support, that is a
+If you need an XDR `type` or an RPC `method` this repository does not yet support, that is a
 `Protocol-Canary` limitation, not something to work around here — open an
-issue/PR against `Protocol-Canary`'s `canary-xdr` crate first (see its own
+issue/PR against `Protocol-Canary`'s `canary-xdr` or `canary-rpc` crate first (see its own
 `CONTRIBUTING.md`), and only add the fixture here once that support exists
 and is released.
 
